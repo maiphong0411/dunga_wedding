@@ -7,7 +7,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg');
+    /* background-image: url('https://i.pinimg.com/736x/06/06/af/0606af508b3f42d69f9f76719c28fc01.jpg'); */
+    background-color: antiquewhite;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -16,7 +17,7 @@ body {
 /* Container for Photo and Invitation Card */
 .wedding-container {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: antiquewhite;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -31,6 +32,11 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    /* background-image: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg'); */
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .photo-container img {
@@ -46,7 +52,7 @@ body {
 /* Invitation Card */
 .invitation-card {
     flex: 1;
-    background-color: white;
+    background-color: antiquewhite;
     padding: 30px;
     text-align: center;
     display: flex;
