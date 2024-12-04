@@ -1,0 +1,201 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Container for Photo and Invitation Card */
+.wedding-container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1000px;
+    width: 90%;
+}
+
+/* Photo Container */
+.photo-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid #d6336c;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Invitation Card */
+.invitation-card {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Heading */
+.heading {
+    font-size: 1.8rem;
+    color: #d6336c;
+    margin-bottom: 20px;
+}
+
+/* Two-Column Layout */
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info-section {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.groom-section {
+    border-left: 5px solid #d6336c;
+}
+
+.bride-section {
+    border-right: 5px solid #d6336c;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Event Details */
+.event-details {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* RSVP Button */
+button {
+    background-color: #d6336c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b02959;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Countdown Timer */
+.countdown {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #d6336c;
+    text-align: center;
+}
+
+#timer span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 5px;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px; /* Add spacing between QR sections */
+}
+
+.qr-section {
+    text-align: center;
+    width: 50%; /* Adjust width to control layout */
+}
+
+.qr-section img {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 10px;
+    border: 2px solid #d6336c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.photo-container {
+    margin-top: 20px;
+}
+
+.photo-container img {
+    width: 100%; /* Ensure responsiveness */
+    max-width: 200px; /* Set a maximum size */
+    height: auto; /* Maintain the original aspect ratio */
+    border-radius: 15px; /* Add rounded corners */
+    border: 3px solid #d6336c; /* Themed border color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}

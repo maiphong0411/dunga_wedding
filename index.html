@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wedding-container">
+        <div class="photo-container">
+            <img src="https://emilypost.com/assets/image-cache/wedding-groom-unsplash.0674bfa3.9d10ba44.jpg" alt="Groom and Bride">
+        </div>
+        
+        <div class="invitation-card">
+            <h1 class="heading">You're Invited to Our Wedding!</h1>
+            <div id="countdown" class="countdown">
+                <p>Time Until Our Wedding:</p>
+                <div id="timer">
+                    <span id="days">00</span> Days 
+                    <span id="hours">00</span> Hours 
+                    <span id="minutes">00</span> Minutes 
+                    <span id="seconds">00</span> Seconds
+                </div>
+            </div>
+            <div class="info-container">
+                <div class="info-section groom-section">
+                    <h2 class="name">John Doe</h2>
+                    <p class="details">Son of Mr. Adam Doe & Mrs. Eve Doe</p>
+                </div>
+                <div class="info-section bride-section">
+                    <h2 class="name">Jane Smith</h2>
+                    <p class="details">Daughter of Mr. William Smith & Mrs. Sarah Smith</p>
+                </div>
+            </div>
+            <p class="event-details">
+                <strong>Date:</strong> January 5, 2025<br>
+                <strong>Venue:</strong> Rosewood Gardens, New York
+            </p>
+            <button id="rsvp-button" onclick="redirectToRSVP()">RSVP Now</button>
+            <div class="qr-container">
+                <div class="qr-section">
+                    <h3>Groom's QR Code</h3>
+                    <img src="https://qrtor.net/qrbg.png" alt="QR Code for Groom">
+                </div>
+                <div class="qr-section">
+                    <h3>Bride's QR Code</h3>
+                    <img src="https://qrtor.net/qrbg.png" alt="QR Code for Bride">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
